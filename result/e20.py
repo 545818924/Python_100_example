@@ -5,17 +5,17 @@ def fall(height, n):
     return height * 1 / 2 ** n
 
 
-print(fall(100, 6))
-
+res = height = 100
 n = 10
-res = 0
-height = 100
 
-for i in range(1, 11):
-    res += fall(n, i)
+for i in range(1, n):
+	res += height 
+	height /= 2
+
+
+
 print(res)
-print(fall(height, 10))
+print(fall(100, n))
 
 
-print([height * 1 / 2 ** i for i in range(1, i + 1)])
-print(sum([height * 1 / 2 ** i for i in range(1, i + 1)]))
+

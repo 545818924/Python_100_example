@@ -3,30 +3,30 @@
 
 # res = ["*" * 11 for i in range(9)]
 # print(res)
-m = 19
-mid = m // 2
-temp = []
-star = '*'
-for i in range(m - mid):
-    mid_s = mid - i
-    mid_p = mid + i
-    t = list(' ' * m)
-    t[mid_s] = star
-    t[mid_p] = star
-    # ''.join(t)
-    temp.append(t)
+# m = 19
+# mid = m // 2
+# temp = []
+# star = '*'
+# for i in range(m - mid):
+#     mid_s = mid - i
+#     mid_p = mid + i
+#     t = list(' ' * m)
+#     t[mid_s] = star
+#     t[mid_p] = star
+#     # ''.join(t)
+#     temp.append(t)
 
-for i in range(m - 1 - mid - 1, -1, -1):
-    mid_s = mid - i
-    mid_p = mid + i
-    t = list(' ' * m)
-    t[mid_s] = star
-    t[mid_p] = star
-    # ''.join(t)
-    temp.append(t)
+# for i in range(m - 1 - mid - 1, -1, -1):
+#     mid_s = mid - i
+#     mid_p = mid + i
+#     t = list(' ' * m)
+#     t[mid_s] = star
+#     t[mid_p] = star
+#     # ''.join(t)
+#     temp.append(t)
 
-for i in temp:
-    print(''.join(i))
+# for i in temp:
+#     print(''.join(i))
 
 m = 19
 print('*'.center(m))

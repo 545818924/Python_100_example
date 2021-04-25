@@ -4,3 +4,8 @@ s1 = 8
 s2 = 12
 
 print(s1 ^ s2)
+
+s3 = 1
+s4 = 0
+
+print(s3 ^ s4)

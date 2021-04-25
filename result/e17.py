@@ -21,5 +21,5 @@ class Counter_string():
 
 c = Counter_string()
 string = 'Hello, Python! today is 2020-04-29.'
-# string = '1234566'
+# string = '1234567 abcd -'
 print(c.counter(string))

@@ -3,8 +3,7 @@
 
 s = m = 1
 res = 0
-for i in range(1, 21):
+for n, i in enumerate(range(1, 21),start=1):
     s, m = m, s + m
     res += m / s
-
-    print("%11.6f" % res)
+    print(n, " sum :%11.6f" % res)

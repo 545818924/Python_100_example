@@ -14,7 +14,7 @@ while 1:
     else:
         a = input("Enter second word(Q to quit): ")
         for i in tmp:
-            if a == i[1]:
+            if a.lower() == i[1]:
                 print(i)
     if a == 'Q':
         break

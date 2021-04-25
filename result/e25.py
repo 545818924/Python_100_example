@@ -3,7 +3,7 @@
 res = 0
 tmp = 1
 
-for i in range(1, 21):
+for n, i in enumerate(range(1, 21), start=1):
     tmp *= i
     res += tmp
-    print(res)
+    print(f"第{n}的结果: {res}")

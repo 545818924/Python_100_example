@@ -9,3 +9,4 @@ print(list(reversed(string)))
 # print(string)
 
 print(sorted(string, key=lambda x: string.index(x), reverse=True))
+

@@ -37,7 +37,7 @@ def func_(q, a=[]):
 
 
 # data = 25927169
-data = 99099099000
+data = 123456789
 
 func(data)
 func_(data)

@@ -2,4 +2,4 @@
 
 from turtle import *
 
-circle(100)
+circle(-100)

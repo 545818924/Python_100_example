@@ -3,9 +3,12 @@ import math
 
 result = [x for x in range(101, 201) if not [y for y in range(
     2, int(math.sqrt(x)) + 1) if x % y == 0]]
-
 print(result)
 
+# 可读性更好一点
+result_ = [x for x in range(101, 201) if 0 not in [x % y for y in range(
+    2, int(math.sqrt(x)) + 1)]]
+print(result_)
 
 for x in range(101, 201):
     t = 1

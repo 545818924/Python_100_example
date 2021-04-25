@@ -3,5 +3,5 @@
 s = 'Hello World I am a programer.'.split()
 print(s)
 
-for i in range(len(s)):
-    print(s.pop())
+for i in s:
+	print([i])

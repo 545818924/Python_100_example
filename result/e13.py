@@ -14,3 +14,9 @@ for i in range(1, 10):
         for k in range(10):
             if pow(i, 3) + pow(j, 3) + pow(k, 3) == i * 100 + j * 10 + k:
                 print(i, j, k)
+
+
+# 列表推导式
+r = [(i, j, k) for i in range(1, 10) for j in range(10) for k in range(10) if pow(i, 3) + pow(j, 3) + pow(k, 3) == i * 100 + j * 10 + k ]
+
+print(r)

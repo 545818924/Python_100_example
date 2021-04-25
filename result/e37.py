@@ -6,4 +6,3 @@ res = sample(range(100), 10)
 print(sorted(res))
 
 
-print(randrange(1, 101, 2))

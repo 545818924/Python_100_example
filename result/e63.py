@@ -1,4 +1,19 @@
 '''题目：画椭圆。'''
+import turtle as t
+t.pendown()
+t.setheading(90)
+len = 1
+for k in range(2):         # 将相同的动作重复做一遍
+    for j in range(60):
+        if j < 30:
+            len += 0.2
+        else:
+            len -= 0.2
+        t.forward(len)
+        t.left(3)
+
+t.penup()
+t.done()
 
 # 1
 import matplotlib.pyplot as plt

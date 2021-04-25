@@ -3,4 +3,4 @@
 from random import *
 
 print(random(), randint(1, 100), randrange(
-    1, 100, 2), uniform(1, 10), sep='\n')
+    0, 100, 10), uniform(1, 10), sep='\n')

@@ -20,6 +20,6 @@ def fib_(n):
     return result
 
 
-n = 4
+n = 10
 print(fib_(n))
 print(fib(n))  # 总数需乘2

@@ -12,5 +12,5 @@ for i in range(10):
     s1 = s2
 
 
-for i in res:
-    print(i)
+for n,i in enumerate(res,start=1):
+    print(n,":", i)

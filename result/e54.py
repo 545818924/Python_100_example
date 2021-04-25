@@ -2,5 +2,5 @@
 
 
 n = input("Enter a number: ")
-
+# n = str(1234567)
 print(n[-7:-3])

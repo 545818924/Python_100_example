@@ -3,6 +3,7 @@
 
 import sys
 
+
 a = input("a number：")
 res = pow(int(a), 2)
 print(res) if res >= 50 else sys.exit(-1)
