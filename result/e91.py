@@ -3,3 +3,4 @@
 import time
 
 print(time.asctime())
+print(time.strptime(time.asctime(),'%c'))

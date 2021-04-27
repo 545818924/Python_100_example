@@ -2,4 +2,4 @@
 
 import time
 
-print(time.clock())
+print(time.time())

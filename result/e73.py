@@ -17,8 +17,8 @@ for i in range(10):
     sample.append(Node(i))
 
 for i in sample:
-    print(i)
+    print(i.value)
 
 print('---' * 30)
 for i in sample[::-1]:
-    print(i)
+    print(i.value)

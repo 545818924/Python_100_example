@@ -5,6 +5,7 @@ from __future__ import unicode_literals
 # 浅拷贝
 a = [1, 2, 3, [4]]
 b = a[:]
+a.insert(0,0)
 a[-1].append(5)
 
 print(a, id(a), b, id(b))
@@ -16,3 +17,4 @@ b = deepcopy(a)
 a[-1].append(6)
 
 print(a, id(a), b, id(b))
+

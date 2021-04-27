@@ -6,7 +6,9 @@ def gcd(a, b):
         return a
     return gcd(b, a % b)
 
-
-n = int(input("输入一个奇数： "))
-
-print(n * 9 / gcd(n, 9))
+while True:
+	n = int(input("输入一个奇数： "))
+	if n % 2 != 0:
+		print(n  / gcd(n, 9))
+	else:
+		print('输入的不是奇数，请重新输入。')

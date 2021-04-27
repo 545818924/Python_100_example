@@ -6,3 +6,5 @@ from datetime import datetime
 today = datetime.today()
 
 print(today.strftime('%Y-%m-%d'))
+print(today.strftime('%c'))
+print(today)

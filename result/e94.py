@@ -1,6 +1,7 @@
 '''题目：时间函数举例4,一个猜数游戏，判断一个人反应快慢。'''
 
 import time
+import random 
 
 
 def guess_number(n):
@@ -19,4 +20,4 @@ def guess_number(n):
     print("User time: ", end - start)
 
 
-guess_number(10)
+guess_number(random.randint(1, 1000))
