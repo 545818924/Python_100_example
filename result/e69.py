@@ -14,6 +14,8 @@ def ppp(array, n):
         return array[1]
     array = array[n:] + array[:n-1]
     return ppp(array, n)
+
+
 print(ppp(array, 3))
 
 
@@ -27,6 +29,8 @@ def hotPotato(namelist, num):
             simqueue.enqueue(simqueue.dequeue())
         simqueue.dequeue()
     return simqueue.dequeue()
+
+
 # tmp = ["Bill","David","Susan","Jane","Kent","Brad"]
 # print(hotPotato(tmp, 7))
 print(hotPotato(array, 2))
