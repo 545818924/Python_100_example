@@ -3,8 +3,10 @@
 week = ['Monday', 'Tuesday', 'Wednesday',
         'Thursday', 'Friday', 'Saturday', 'Sunday']
 
-while 1:
+while True:
     a = input("Enter first word(Q to quit): ")
+    if a in ('q', 'Q'):
+        break
     tmp = []
     for i in week:
         if a.upper() == i[0]:
@@ -13,8 +15,8 @@ while 1:
         print(tmp[0])
     else:
         a = input("Enter second word(Q to quit): ")
+        if a in ('q', 'Q'):
+            break     
         for i in tmp:
             if a.lower() == i[1]:
                 print(i)
-    if a == 'Q':
-        break
