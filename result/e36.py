@@ -7,14 +7,16 @@ for x in range(2, 101):
         if x % y == 0:
             t = 0
     if t:
-        print(x)
+        print(x, end=', ')
 
+print('\n', '--' * 30)
 # solution 2
 res = [x for x in range(2, 101) if not [y for y in range(2, x) if x % y == 0]]
 print(res)
 
 
 
+print('--' * 30)
 # solution 3 
 tmp = list(range(2, 101))
 for i in tmp:
