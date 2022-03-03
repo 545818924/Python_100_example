@@ -7,9 +7,9 @@ t = 0
 for i in permutations('1234', 3):
     print(''.join(i), end=',')
     t += 1
-print('\n合计有%s个不重复的组合' % t)
+print('\n合计有{t}个不重复的组合' )
 
 # 2
 res = [''.join((a, b, c)) for a in s for b in s for c in s if
        a != b and b != c and a != c]
-print(len(res))
+print(f"合计有{len(res)}个不重复的组合，分别为:\n{res})")
